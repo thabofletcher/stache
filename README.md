@@ -11,11 +11,21 @@ stache will build into the parent directory
 for example:
 
 index.html
-  <pre><!DOCTYPE html>
-  {{stuff}}</pre>
+  <pre>
+  <!DOCTYPE html>
+  {{stuff}}
+  </html>
+  </pre>
   
 stuff._.html
-  <head>{{more-stuff}}</head><body></body></html>
+  <pre>
+  <head>
+  {{more-stuff}}
+  </head>
+  <body></body>
+  </pre>
   
 more-stuff._.html
+  <pre>
   <script>alert('hello world');</script>
+  </pre>
