@@ -14,7 +14,6 @@ index.html
   <pre>
   <!DOCTYPE html>
   {{stuff}}
-  </html>
   </pre>
   
 stuff._.html
